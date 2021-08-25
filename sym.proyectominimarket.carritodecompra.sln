@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "carritodecompra", "carritodecompra\carritodecompra.csproj", "{D3513B71-7664-4CD7-8A68-4A8CF29CF368}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "views", "views", "{CDAF310A-DE68-4AA1-B705-CC255FB49BD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "models", "models", "{1738C662-F21A-4199-8D39-6A22C0A9BBE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "controllers", "controllers", "{F42CD370-F083-4A5B-AA18-ACA843BF368F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "database", "database", "{BFB9509E-D908-49D1-868F-A27F206D6E01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mys.proyectominimarket.database", "mys.proyectominimarket.database\mys.proyectominimarket.database.csproj", "{A13560D4-548C-4CD7-B106-95E7A856FE8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sym.proyectominimarket.controllers", "sym.proyectominimarket.controllers\sym.proyectominimarket.controllers.csproj", "{3F3BCB4B-70C9-461A-9FF1-EE114AFF094B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sym.proyectominimarket.models", "sym.proyectominimarket.models\sym.proyectominimarket.models.csproj", "{361B4DEB-147A-4FDE-9A36-05C177BBAA12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3513B71-7664-4CD7-8A68-4A8CF29CF368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3513B71-7664-4CD7-8A68-4A8CF29CF368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3513B71-7664-4CD7-8A68-4A8CF29CF368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3513B71-7664-4CD7-8A68-4A8CF29CF368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A13560D4-548C-4CD7-B106-95E7A856FE8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A13560D4-548C-4CD7-B106-95E7A856FE8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A13560D4-548C-4CD7-B106-95E7A856FE8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A13560D4-548C-4CD7-B106-95E7A856FE8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F3BCB4B-70C9-461A-9FF1-EE114AFF094B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F3BCB4B-70C9-461A-9FF1-EE114AFF094B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F3BCB4B-70C9-461A-9FF1-EE114AFF094B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F3BCB4B-70C9-461A-9FF1-EE114AFF094B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{361B4DEB-147A-4FDE-9A36-05C177BBAA12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{361B4DEB-147A-4FDE-9A36-05C177BBAA12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{361B4DEB-147A-4FDE-9A36-05C177BBAA12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{361B4DEB-147A-4FDE-9A36-05C177BBAA12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D3513B71-7664-4CD7-8A68-4A8CF29CF368} = {CDAF310A-DE68-4AA1-B705-CC255FB49BD0}
+		{A13560D4-548C-4CD7-B106-95E7A856FE8F} = {BFB9509E-D908-49D1-868F-A27F206D6E01}
+		{3F3BCB4B-70C9-461A-9FF1-EE114AFF094B} = {F42CD370-F083-4A5B-AA18-ACA843BF368F}
+		{361B4DEB-147A-4FDE-9A36-05C177BBAA12} = {1738C662-F21A-4199-8D39-6A22C0A9BBE4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEFBE5A8-D141-497F-B6F6-54D512E1AC2B}
+	EndGlobalSection
+EndGlobal
